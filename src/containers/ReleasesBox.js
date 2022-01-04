@@ -36,11 +36,11 @@ const ReleasesBox = () => {
     )
 
     return (
-        <>
+        <div class="releases-box">
             <TitleBox />
             <FilmList films={films} />
             <LinkButton />
-        </>
+        </div>
     )
 }
 

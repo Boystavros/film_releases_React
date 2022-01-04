@@ -1,7 +1,7 @@
 const Film = ({name, url}) => {
     return (
         
-        <li>
+        <li class="film-name">
             <a href={url}>{name}</a>
         </li>
         
